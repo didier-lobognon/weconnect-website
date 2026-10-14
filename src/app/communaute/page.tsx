@@ -11,7 +11,7 @@ import { branches } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Communauté — Sécurité numérique, fullstack, data & IA, lead tech",
   description:
-    "Les alumni We.Connect viennent des quatre branches Wecode : sécurité numérique, développement fullstack, data & IA et lead tech. Un seul réseau à Abidjan.",
+    "Les alumni We.Connect viennent des quatre branches Wecode : sécurité numérique, développement fullstack, data & IA et lead tech. Un seul réseau à Abidjan.",
   alternates: { canonical: "/communaute" },
 };
 
@@ -23,7 +23,7 @@ export default function CommunityPage() {
         image="promoFullstack"
         title="Une communauté. Quatre expertises."
         accents={["communauté."]}
-        lead="Sécurité numérique, développement fullstack, data & IA, lead tech : nos membres viennent de toutes les filières Wecode — et c’est précisément ce qui fait la force de la communauté."
+        lead="Sécurité numérique, développement fullstack, data & IA, lead tech : nos membres viennent de toutes les filières Wecode — et c’est précisément ce qui fait la force de la communauté."
       >
         <ButtonLink href="#securite-numerique" variant="primary">
           Découvrir les expertises
@@ -35,7 +35,7 @@ export default function CommunityPage() {
           <SectionHeading
             id="graph-title"
             kicker="Croiser les expertises"
-            title="Pas quatre silos : un réseau."
+            title="Pas quatre silos : un réseau."
             accents={["réseau."]}
             lead="Un projet a besoin de sécurité, de code, de données et de leadership. En reliant les branches, We.Connect multiplie les rencontres utiles."
           />

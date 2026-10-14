@@ -48,7 +48,7 @@
   margin: 0 0 1.25rem;
   max-width: 18ch;
   font-weight: 750;
-  font-size: clamp(2.2rem, 5.4vw, 4.6rem);
+  font-size: clamp(1.7rem, min(5.4vw, calc(var(--line) / 10)), 4.6rem);
   line-height: 1.02;
   letter-spacing: -0.04em;
   color: var(--wc-ink);
@@ -366,7 +366,7 @@
   align-items: center;
   gap: 0.35em;
   /* sized on width and height so the whole hero always fits on screen */
-  font-size: min(calc((100vw - var(--gutter) * 2) / 12), 4rem, 8.5vh);
+  font-size: min(calc(var(--line) / 13.6), 4rem, 8.5vh);
 }
 
 .hero-mark {
@@ -453,7 +453,7 @@
   margin: 0 0 clamp(0.9rem, 2.5vh, 1.5rem);
   max-width: 15ch;
   font-weight: 750;
-  font-size: clamp(2.3rem, min(6.4vw, 10vh), 5.8rem);
+  font-size: clamp(1.9rem, min(6.4vw, 10vh, calc(var(--line) / 10.5)), 5.8rem);
   line-height: 0.98;
   letter-spacing: -0.045em;
 }
@@ -578,7 +578,7 @@
   max-width: 24ch;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(2rem, 5.2vw, 4.6rem);
+  font-size: clamp(1.6rem, min(5.2vw, calc(var(--line) / 10.5)), 4.6rem);
   line-height: 1.08;
   letter-spacing: -0.04em;
 }
@@ -635,7 +635,7 @@
   margin: 0 0 1.5rem;
   max-width: 14ch;
   font-weight: 800;
-  font-size: clamp(2.4rem, 6.2vw, 6rem);
+  font-size: clamp(1.8rem, min(6.2vw, calc(var(--line) / 10.5)), 6rem);
   overflow-wrap: break-word;
   hyphens: auto;
   line-height: 0.95;
@@ -669,9 +669,9 @@
 .cta-orb-ring text {
   fill: rgba(255, 255, 255, 0.85);
   font-family: var(--font-body);
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 700;
-  letter-spacing: 3.4px;
+  letter-spacing: 2px;
 }
 
 .cta-orb-core {
@@ -685,9 +685,9 @@
   border-radius: 50%;
   background: var(--wc-orange);
   color: var(--wc-ink);
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: transform 0.5s var(--ease), background 0.4s ease;
 }
 

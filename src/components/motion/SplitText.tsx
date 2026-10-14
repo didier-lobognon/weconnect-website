@@ -21,10 +21,9 @@ type SplitTextProps = {
 };
 
 const inner: Variants = {
-  hidden: { y: "110%", rotate: 4 },
+  hidden: { y: "110%" },
   visible: {
     y: "0%",
-    rotate: 0,
     transition: { duration: 1, ease: easeOut },
   },
 };

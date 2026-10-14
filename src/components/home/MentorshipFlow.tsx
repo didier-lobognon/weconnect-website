@@ -43,7 +43,7 @@ export function MentorshipFlow() {
             tone="light"
             kicker="Mentorat fraternel"
             title="Grands frères, grandes sœurs."
-            lead="Accompagner celles et ceux qui sortent tout juste des modules : c’est le cœur de We.Connect. Une relation de pair à pair, pas une hiérarchie."
+            lead="Accompagner celles et ceux qui sortent tout juste des modules : c’est le cœur de We.Connect. Une relation de pair à pair, pas une hiérarchie."
           />
           <Stagger as="ol" className="cycle">
             {mentorshipCycle.map((step, i) => (

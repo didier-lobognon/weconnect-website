@@ -10,7 +10,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 export const metadata: Metadata = {
   title: "Activités — Événements, mentorat, masterclasses, partenariats",
   description:
-    "Rencontres, mentorat, masterclasses, formations, partenariats et partage d’expériences : ce que la communauté We.Connect fait ensemble à Abidjan.",
+    "Rencontres, mentorat, masterclasses, formations, partenariats et partage d’expériences : ce que la communauté We.Connect fait ensemble à Abidjan.",
   alternates: { canonical: "/activites" },
 };
 
@@ -22,7 +22,7 @@ export default function ActivitiesPage() {
         image="coursFormateur"
         title="Rencontres, transmission, ouverture."
         accents={["transmission,"]}
-        lead="Six façons concrètes de faire vivre le réseau : on se retrouve, on se forme, on accompagne et on ouvre des portes — ensemble."
+        lead="Six façons concrètes de faire vivre le réseau : on se retrouve, on se forme, on accompagne et on ouvre des portes — ensemble."
       />
 
       <section className="section" aria-labelledby="activities-list-title">
@@ -62,7 +62,7 @@ export default function ActivitiesPage() {
 
       <CtaBanner
         title="Envie de proposer une activité ?"
-        text="Une masterclass à animer, un partenariat à construire, une rencontre à organiser : la communauté est ouverte à tes idées."
+        text="Une masterclass à animer, un partenariat à construire, une rencontre à organiser : la communauté est ouverte à tes idées."
         label="Proposer"
         image="salleAuditoire"
       />

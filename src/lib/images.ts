@@ -30,13 +30,13 @@ export const images = {
   // Cérémonies & promotions
   remiseEcharpes: {
     src: remiseEcharpes,
-    alt: "Une promotion Wecode lors de la remise des écharpes : cyber sécurité, fullstack, data & IA",
+    alt: "Une promotion Wecode lors de la remise des écharpes : cyber sécurité, fullstack, data & IA",
     position: "50% 35%",
   },
   /** Same photo, cropped on the « Cyber Sec » sashes. */
   remiseEcharpesCyber: {
     src: remiseEcharpes,
-    alt: "Des alumni Wecode de la branche cyber sécurité, écharpe « Cyber Sec »",
+    alt: "Des alumni Wecode de la branche cyber sécurité, écharpe « Cyber Sec »",
     position: "8% 35%",
   },
   promoFullstack: {
@@ -46,7 +46,7 @@ export const images = {
   },
   graduationDataIa: {
     src: graduationDataIa,
-    alt: "Graduation Data & IA de Wecode : les diplômés sur scène avec leurs attestations",
+    alt: "Graduation Data & IA de Wecode : les diplômés sur scène avec leurs attestations",
     position: "50% 45%",
   },
   selfieFullstack: {
@@ -98,7 +98,7 @@ export const images = {
   dataAnalyst: {
     src: dataAnalyst,
     alt: "Poste de travail d’un data analyst, tableur et notes de travail",
-    position: "50% 40%",
+    position: "50% 18%",
   },
 } satisfies Record<string, SiteImage>;
 

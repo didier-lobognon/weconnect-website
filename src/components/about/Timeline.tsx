@@ -21,8 +21,8 @@ export function Timeline() {
         <motion.li
           key={item.step}
           className={`timeline-item${i % 2 ? " is-right" : ""}`}
-          initial={{ opacity: 0, x: i % 2 ? 60 : -60 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "0px 0px -20% 0px" }}
           transition={{ duration: 1, ease: easeOut }}
         >

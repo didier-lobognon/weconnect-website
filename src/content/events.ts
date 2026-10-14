@@ -47,9 +47,9 @@ export const events: EventItem[] = [
     category: "Cérémonie",
     // À compléter : date et lieu exacts de la cérémonie.
     excerpt:
-      "La cérémonie de fin de parcours d’une promotion Wecode : cyber sécurité, fullstack, data & IA. Là où tout a commencé pour beaucoup d’entre nous.",
+      "La cérémonie de fin de parcours d’une promotion Wecode : cyber sécurité, fullstack, data & IA. Là où tout a commencé pour beaucoup d’entre nous.",
     body: [
-      "À la fin des parcours Wecode, les bénéficiaires de chaque branche ont reçu leur écharpe : cyber sécurité, développement fullstack, data & IA.",
+      "À la fin des parcours Wecode, les bénéficiaires de chaque branche ont reçu leur écharpe : cyber sécurité, développement fullstack, data & IA.",
       "Ce moment marque la fin des modules… et le début d’autre chose. C’est de cette envie de rester connectés qu’est né We.Connect.",
     ],
     cover: "remiseEcharpes",
@@ -61,10 +61,10 @@ export const events: EventItem[] = [
     category: "Cérémonie",
     // À compléter : date et lieu exacts de la cérémonie.
     excerpt:
-      "Les diplômés de la branche Data & IA reçoivent leur attestation sur scène : un moment de fierté partagé par toute la communauté.",
+      "Les diplômés de la branche Data & IA reçoivent leur attestation sur scène : un moment de fierté partagé par toute la communauté.",
     body: [
-      "Sur scène, attestation en main et écharpe « Data-IA » sur les épaules : les diplômés de la branche Data & IA ont célébré la fin de leur parcours Wecode.",
-      "Une étape de plus pour la communauté : ces nouveaux alumni rejoignent le réseau, prêts à partager et à transmettre à leur tour.",
+      "Sur scène, attestation en main et écharpe « Data-IA » sur les épaules : les diplômés de la branche Data & IA ont célébré la fin de leur parcours Wecode.",
+      "Une étape de plus pour la communauté : ces nouveaux alumni rejoignent le réseau, prêts à partager et à transmettre à leur tour.",
     ],
     cover: "graduationDataIa",
     gallery: ["graduationDataIa", "duoDataIa"],

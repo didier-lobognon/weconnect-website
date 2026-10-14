@@ -42,8 +42,8 @@ export const actions: ActionItem[] = [
     excerpt:
       "À la fin des parcours Wecode, une poignée de bénéficiaires crée We.Connect pour garder le lien entre toutes les branches.",
     body: [
-      "Les formations Wecode se déroulent par modules et par branches : sécurité numérique, développement fullstack, data & IA, lead tech. À la fin des parcours, chacun repart de son côté.",
-      "Une poignée de bénéficiaires décide alors de créer We.Connect : un espace pour rester connectés quelle que soit la branche suivie, partager les expériences et accompagner celles et ceux qui sortent tout juste des modules.",
+      "Les formations Wecode se déroulent par modules et par branches : sécurité numérique, développement fullstack, data & IA, lead tech. À la fin des parcours, chacun repart de son côté.",
+      "Une poignée de bénéficiaires décide alors de créer We.Connect : un espace pour rester connectés quelle que soit la branche suivie, partager les expériences et accompagner celles et ceux qui sortent tout juste des modules.",
     ],
     highlights: [
       "Toutes les branches Wecode réunies",

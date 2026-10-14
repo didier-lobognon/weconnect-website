@@ -1,5 +1,7 @@
 /* We.Connect — tokens & base */
 :root {
+  /* Usable line width: big titles are capped by it so their longest word always fits. */
+  --line: calc(100vw - var(--gutter) * 2);
   --wc-blue: #044e8f;
   --wc-blue-deep: #003a6e;
   --wc-blue-night: #022b52;
@@ -92,6 +94,7 @@ h3 {
   font-family: var(--font-display);
   font-weight: 700;
   text-wrap: balance;
+  overflow-wrap: break-word;
 }
 
 p {

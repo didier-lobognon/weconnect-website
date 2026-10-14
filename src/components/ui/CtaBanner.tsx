@@ -11,7 +11,7 @@ import type { ImageKey } from "@/lib/images";
 /** Closing call-to-action with a rotating, magnetic round button. */
 export function CtaBanner({
   title = "Prêt·e à connecter ?",
-  text = "Alumni Wecode, nouveau sortant, mentor ou partenaire : la communauté grandit avec chaque lien créé.",
+  text = "Alumni Wecode, nouveau sortant, mentor ou partenaire : la communauté grandit avec chaque lien créé.",
   href = "/rejoindre",
   label = "Rejoindre",
   image = "selfieAlumni",
@@ -45,7 +45,7 @@ export function CtaBanner({
                   <path id="cta-circle" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0" />
                 </defs>
                 <text>
-                  <textPath href="#cta-circle">
+                  <textPath href="#cta-circle" textLength="486" lengthAdjust="spacing">
                     CONNECTER POUR RÉUSSIR · CONNECTER POUR RÉUSSIR ·
                   </textPath>
                 </text>

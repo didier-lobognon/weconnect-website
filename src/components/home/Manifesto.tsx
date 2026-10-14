@@ -20,7 +20,7 @@ export function Manifesto() {
         <Reveal className="manifesto-foot" delay={0.1}>
           <p>
             Né d’une poignée de bénéficiaires des formations Wecode, We.Connect
-            est le réseau vivant qui prolonge l’aventure : on se retrouve, on
+            est le réseau vivant qui prolonge l’aventure : on se retrouve, on
             partage, on accompagne.
           </p>
           <ButtonLink href="/a-propos" variant="outline">

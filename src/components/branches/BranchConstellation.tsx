@@ -116,8 +116,8 @@ export function BranchConstellation() {
                 <span className="constellation-panel-index">01 — 04</span>
                 <h3>Quatre branches, égales.</h3>
                 <p>
-                  Aucune hiérarchie entre les filières : chacune enrichit les
-                  autres. Survolez une branche pour voir ses liens.
+                  Aucune hiérarchie entre les filières : chacune enrichit les
+                  autres. Touchez ou survolez une branche pour voir ses liens.
                 </p>
               </>
             )}

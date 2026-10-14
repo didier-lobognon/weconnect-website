@@ -10,7 +10,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Rejoindre — Alumni, mentors et partenaires",
   description:
-    "Alumni Wecode, nouveau sortant, mentor ou partenaire : rejoins We.Connect, la communauté tech alumni d’Abidjan. Contact par téléphone ou e-mail.",
+    "Alumni Wecode, nouveau sortant, mentor ou partenaire : rejoins We.Connect, la communauté tech alumni d’Abidjan. Contact par téléphone ou e-mail.",
   alternates: { canonical: "/rejoindre" },
 };
 
@@ -43,7 +43,7 @@ export default function JoinPage() {
         image="duoDataIa"
         title="Prêt·e à connecter ?"
         accents={["connecter"]}
-        lead="Alumni Wecode, mentor, partenaire ou curieux·se de la scène tech abidjanaise : parlons. Chaque lien créé renforce le réseau."
+        lead="Alumni Wecode, mentor, partenaire ou curieux·se de la scène tech abidjanaise : parlons. Chaque lien créé renforce le réseau."
       />
 
       <section className="section" aria-labelledby="join-title">

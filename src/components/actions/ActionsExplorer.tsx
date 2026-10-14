@@ -66,7 +66,7 @@ export function ActionsExplorer() {
               </span>
               <h3>La prochaine action s’écrit avec toi.</h3>
               <p>
-                Un projet, une formation, un partenariat à lancer ? Propose-le à
+                Un projet, une formation, un partenariat à lancer ? Propose-le à
                 la communauté.
               </p>
               <span className="text-link">

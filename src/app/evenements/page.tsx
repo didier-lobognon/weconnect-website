@@ -15,7 +15,7 @@ import { formatDate, pastEvents, upcomingEvents } from "@/content/events";
 export const metadata: Metadata = {
   title: "Événements — Rencontres, masterclasses et formations à Abidjan",
   description:
-    "Tous les rendez-vous de la communauté We.Connect à Abidjan : événements à venir, rencontres passées, masterclasses, formations et cérémonies.",
+    "Tous les rendez-vous de la communauté We.Connect à Abidjan : événements à venir, rencontres passées, masterclasses, formations et cérémonies.",
   alternates: { canonical: "/evenements" },
 };
 
@@ -34,7 +34,7 @@ export default function EventsPage() {
         image="selfieFullstack"
         title="Se retrouver, encore et toujours."
         accents={["encore"]}
-        lead="Rencontres, masterclasses, formations, cérémonies : tous les rendez-vous de la communauté, à venir et passés."
+        lead="Rencontres, masterclasses, formations, cérémonies : tous les rendez-vous de la communauté, à venir et passés."
       >
         <ButtonLink href="#a-venir">Voir les prochains rendez-vous</ButtonLink>
       </PageHero>
@@ -131,7 +131,7 @@ export default function EventsPage() {
 
       <CtaBanner
         title="Une idée d’événement ?"
-        text="Meetup, masterclass, atelier ou retrouvailles : propose ton idée, la communauté s’occupe du reste avec toi."
+        text="Meetup, masterclass, atelier ou retrouvailles : propose ton idée, la communauté s’occupe du reste avec toi."
         label="Proposer"
         image="coursFormateur"
       />

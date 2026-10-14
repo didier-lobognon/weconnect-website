@@ -5,6 +5,7 @@
 @import "../styles/home.css";
 @import "../styles/pages.css";
 @import "../styles/content.css";
+@import "../styles/responsive.css";
 
 @theme inline {
   --font-display: var(--font-syne), system-ui, sans-serif;

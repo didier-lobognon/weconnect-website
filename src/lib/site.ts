@@ -16,7 +16,7 @@ export const siteConfig = {
   name: "We.Connect",
   tagline: "Connecter pour réussir",
   description:
-    "We.Connect fédère les bénéficiaires des formations Wecode (sécurité numérique, fullstack, data/IA, lead tech) à Abidjan : événements, mentorat, masterclasses et partenariats.",
+    "We.Connect fédère les bénéficiaires des formations Wecode (sécurité numérique, fullstack, data/IA, lead tech) à Abidjan : événements, mentorat, masterclasses et partenariats.",
   url: siteUrl(),
   locale: "fr_CI",
   phone: "+2250161875957",
@@ -61,7 +61,7 @@ export const branches = [
     essence: ["Vigilance", "Confiance", "Protection"],
     description:
       "Défense, bonnes pratiques et culture cyber — pour protéger les produits et les organisations.",
-    long: "Les membres issus de la branche sécurité numérique apportent au réseau une culture de la vigilance : bonnes pratiques, défense des systèmes et sens des responsabilités face aux données.",
+    long: "Les membres issus de la branche sécurité numérique apportent au réseau une culture de la vigilance : bonnes pratiques, défense des systèmes et sens des responsabilités face aux données.",
     focus: [
       "Culture cyber et bonnes pratiques",
       "Protection des systèmes et des données",
@@ -76,8 +76,8 @@ export const branches = [
     icon: "code",
     essence: ["Construire", "Livrer", "Itérer"],
     description:
-      "Du produit au déploiement : des builders qui conçoivent, codent et livrent des expériences numériques.",
-    long: "Les builders du réseau : du front au back, de l’idée à la mise en ligne. Ils transforment des besoins en produits concrets et partagent leurs façons de faire.",
+      "Du produit au déploiement : des builders qui conçoivent, codent et livrent des expériences numériques.",
+    long: "Les builders du réseau : du front au back, de l’idée à la mise en ligne. Ils transforment des besoins en produits concrets et partagent leurs façons de faire.",
     focus: [
       "Front-end et back-end",
       "Conception de produits",
@@ -93,7 +93,7 @@ export const branches = [
     essence: ["Données", "Modèles", "Décisions"],
     description:
       "Données, modèles et décisions intelligentes — pour transformer l’information en impact.",
-    long: "Ceux qui font parler les données : analyse, modèles et intelligence artificielle au service de meilleures décisions, pour les projets comme pour les organisations.",
+    long: "Ceux qui font parler les données : analyse, modèles et intelligence artificielle au service de meilleures décisions, pour les projets comme pour les organisations.",
     focus: [
       "Analyse et visualisation de données",
       "Modèles et intelligence artificielle",
@@ -109,7 +109,7 @@ export const branches = [
     essence: ["Vision", "Leadership", "Encadrement"],
     description:
       "Leadership technique et vision produit — pour guider les équipes et faire grandir les projets.",
-    long: "Les profils lead tech donnent le cap : ils encadrent, structurent et font grandir les équipes. Au sein du réseau, ils transmettent leur expérience du pilotage.",
+    long: "Les profils lead tech donnent le cap : ils encadrent, structurent et font grandir les équipes. Au sein du réseau, ils transmettent leur expérience du pilotage.",
     focus: [
       "Pilotage d’équipes tech",
       "Vision produit et stratégie",
@@ -146,7 +146,7 @@ export const activities = [
     short: "Mentorat",
     icon: "mentor",
     description:
-      "Les grands frères et grandes sœurs accompagnent ceux qui sortent tout juste des modules : conseils, revue de code, orientation de carrière.",
+      "Les grands frères et grandes sœurs accompagnent ceux qui sortent tout juste des modules : conseils, revue de code, orientation de carrière.",
     points: ["Conseils de parcours", "Revue de code", "Orientation carrière"],
   },
   {
@@ -203,7 +203,7 @@ export const story = [
   {
     step: "01",
     title: "Les formations Wecode",
-    text: "Des parcours par modules et par branches : sécurité numérique, développement fullstack, data & IA, lead tech.",
+    text: "Des parcours par modules et par branches : sécurité numérique, développement fullstack, data & IA, lead tech.",
   },
   {
     step: "02",
@@ -276,7 +276,7 @@ export const mentorshipCycle = [
   },
   {
     title: "Grandir",
-    text: "Conseils, revue de code, orientation : on progresse plus vite, ensemble.",
+    text: "Conseils, revue de code, orientation : on progresse plus vite, ensemble.",
   },
   {
     title: "Transmettre",
@@ -289,13 +289,13 @@ export const profiles = [
     id: "alumni",
     icon: "graduate",
     title: "Alumni Wecode",
-    text: "Tu as suivi un parcours Wecode, quelle que soit la branche ? Ta place est ici.",
+    text: "Tu as suivi un parcours Wecode, quelle que soit la branche ? Ta place est ici.",
   },
   {
     id: "nouveau",
     icon: "spark",
     title: "Nouveau sortant",
-    text: "Tu sors tout juste des modules ? On t’accompagne pour la suite.",
+    text: "Tu sors tout juste des modules ? On t’accompagne pour la suite.",
   },
   {
     id: "mentor",
@@ -307,7 +307,7 @@ export const profiles = [
     id: "partenaire",
     icon: "bridge",
     title: "Partenaire",
-    text: "Entreprise, école ou acteur tech : construisons des ponts ensemble.",
+    text: "Entreprise, école ou acteur tech : construisons des ponts ensemble.",
   },
 ] as const satisfies ReadonlyArray<{
   id: string;
@@ -325,15 +325,15 @@ export const faq = [
   },
   {
     q: "Je sors tout juste de formation, c’est pour moi ?",
-    a: "Oui, surtout ! Accompagner ceux qui sortent tout juste des modules est au cœur de notre mission : conseils, mentorat, échanges avec les anciens.",
+    a: "Oui, surtout ! Accompagner ceux qui sortent tout juste des modules est au cœur de notre mission : conseils, mentorat, échanges avec les anciens.",
   },
   {
     q: "Quelle que soit ma branche ?",
-    a: "Sécurité numérique, fullstack, data & IA ou lead tech : toutes les branches sont représentées et égales. We.Connect est un seul réseau, pas quatre silos.",
+    a: "Sécurité numérique, fullstack, data & IA ou lead tech : toutes les branches sont représentées et égales. We.Connect est un seul réseau, pas quatre silos.",
   },
   {
     q: "Je représente une entreprise ou une école. Comment collaborer ?",
-    a: "Écris-nous via le formulaire en choisissant le profil « Partenaire », ou appelle-nous. Stages, missions, formations, masterclasses : parlons-en.",
+    a: "Écris-nous via le formulaire en choisissant le profil « Partenaire », ou appelle-nous. Stages, missions, formations, masterclasses : parlons-en.",
   },
 ] as const;
 

@@ -16,14 +16,14 @@ export function Positioning() {
           kicker="Bien nous situer"
           title="Wecode forme. We.Connect relie."
           accents={["We.Connect"]}
-          lead="We.Connect n’est pas le programme de formation : c’est la communauté qui le prolonge. Fiers de nos origines, tournés vers la suite."
+          lead="We.Connect n’est pas le programme de formation : c’est la communauté qui le prolonge. Fiers de nos origines, tournés vers la suite."
         />
 
         <div className="positioning">
           <motion.div
             className="positioning-card"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10%" }}
             transition={{ duration: 0.9, ease: easeOut }}
           >
@@ -50,15 +50,15 @@ export function Positioning() {
 
           <motion.div
             className="positioning-card is-brand"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10%" }}
             transition={{ duration: 0.9, ease: easeOut, delay: 0.15 }}
           >
             <BrandMark tone="light" className="positioning-mark" />
             <span className="positioning-tag">La communauté</span>
             <h3>We.Connect</h3>
-            <p>Le réseau alumni vivant : rencontres, mentorat, partage et opportunités.</p>
+            <p>Le réseau alumni vivant : rencontres, mentorat, partage et opportunités.</p>
           </motion.div>
         </div>
       </div>

@@ -59,7 +59,7 @@ export function BranchesScroller() {
               kicker="Quatre branches, une communauté"
               title="Tous les talents Wecode, un même réseau."
               accents={["réseau"]}
-              lead="Sécurité, code, données, leadership : We.Connect croise les expertises pour accélérer les opportunités collectives."
+              lead="Sécurité, code, données, leadership : We.Connect croise les expertises pour accélérer les opportunités collectives."
             />
             <p className="hscroll-hint" aria-hidden="true">
               <Icon name="arrow" className="icon" /> Faites défiler

@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: "We.Connect — Connecter pour réussir",
     description:
-      "Communauté alumni Wecode à Abidjan : garder le lien entre les branches, partager, mentorat, événements et masterclasses.",
+      "Communauté alumni Wecode à Abidjan : garder le lien entre les branches, partager, mentorat, événements et masterclasses.",
     images: [
       {
         url: siteConfig.ogImage,

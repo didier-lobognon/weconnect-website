@@ -20,7 +20,7 @@
 
 .page-hero.is-compact .page-hero-title {
   max-width: 20ch;
-  font-size: clamp(2rem, min(4.8vw, 8vh), 4rem);
+  font-size: clamp(1.7rem, min(4.8vw, 8vh, calc(var(--line) / 12)), 4rem);
 }
 
 .section-head-row {
