@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "../styles/base.css";
+@import "../styles/layout.css";
+@import "../styles/components.css";
+@import "../styles/home.css";
+@import "../styles/pages.css";
+@import "../styles/content.css";
+
+@theme inline {
+  --font-display: var(--font-syne), system-ui, sans-serif;
+  --font-body: var(--font-figtree), system-ui, sans-serif;
+  --color-wc-blue: #044e8f;
+  --color-wc-blue-deep: #003a6e;
+  --color-wc-blue-bright: #1a6bb5;
+  --color-wc-orange: #f39200;
+  --color-wc-orange-deep: #d97a00;
+  --color-wc-green: #2ecc71;
+  --color-wc-fog: #f3f6fa;
+  --color-wc-mist: #e6edf5;
+  --color-wc-ink: #0f1c2e;
+  --color-wc-muted: #4a5d73;
+}
