@@ -83,8 +83,8 @@ export function Header() {
               onClick={() => setOpen((v) => !v)}
             >
               <span className="sr-only">{open ? "Fermer le menu" : "Ouvrir le menu"}</span>
-              <span className="menu-toggle-bar" />
-              <span className="menu-toggle-bar" />
+              <span className="menu-toggle-bar is-top" />
+              <span className="menu-toggle-bar is-bottom" />
             </button>
           </div>
         </div>
@@ -95,6 +95,7 @@ export function Header() {
           <motion.div
             className="mobile-menu"
             id="mobile-menu"
+            data-lenis-prevent
             initial={{ clipPath: "circle(0% at 100% 0%)" }}
             animate={{ clipPath: "circle(150% at 100% 0%)" }}
             exit={{ clipPath: "circle(0% at 100% 0%)" }}

@@ -187,31 +187,39 @@
 .menu-toggle {
   position: relative;
   display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
   width: 48px;
   height: 48px;
   border-radius: 50%;
   border: 1.5px solid currentColor;
 }
 
+/* Both bars are centred absolutely: closed = two lines 9px apart, open = a perfect X. */
 .menu-toggle-bar {
-  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
   width: 18px;
   height: 2px;
+  margin: -1px 0 0 -9px;
   border-radius: 2px;
   background: currentColor;
   transition: transform 0.45s var(--ease-in-out);
 }
 
-.menu-toggle.is-open .menu-toggle-bar:first-of-type {
-  transform: translateY(4.5px) rotate(45deg);
+.menu-toggle-bar.is-top {
+  transform: translateY(-4.5px);
 }
 
-.menu-toggle.is-open .menu-toggle-bar:last-of-type {
-  transform: translateY(-4.5px) rotate(-45deg);
+.menu-toggle-bar.is-bottom {
+  transform: translateY(4.5px);
+}
+
+.menu-toggle.is-open .menu-toggle-bar.is-top {
+  transform: rotate(45deg);
+}
+
+.menu-toggle.is-open .menu-toggle-bar.is-bottom {
+  transform: rotate(-45deg);
 }
 
 @media (min-width: 1100px) {
@@ -227,13 +235,16 @@
 }
 
 /* ——— Mobile menu ——— */
+/* Fills the screen below the header; links shrink with the screen height and the panel
+   scrolls if a phone is really short, so no item can hide under the logo. */
 .mobile-menu {
   position: fixed;
   inset: 0;
   z-index: 45;
   display: flex;
-  align-items: flex-end;
-  padding: calc(var(--nav-h) + 2rem) 0 2.5rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: calc(var(--nav-h) + clamp(0.5rem, 3vh, 2rem)) 0 clamp(1.25rem, 4vh, 2.5rem);
   background:
     radial-gradient(circle at 90% 10%, rgba(243, 146, 0, 0.25), transparent 45%),
     linear-gradient(160deg, var(--wc-blue-deep), var(--wc-blue-night));
@@ -243,7 +254,9 @@
 .mobile-menu nav {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  justify-content: space-between;
+  gap: clamp(1.25rem, 4vh, 2.5rem);
+  min-height: 100%;
 }
 
 .mobile-menu-links {
@@ -261,10 +274,11 @@
   display: flex;
   align-items: baseline;
   gap: 1rem;
-  padding: 0.85rem 0;
+  min-height: 44px;
+  padding: clamp(0.4rem, 1.4vh, 0.85rem) 0;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(2rem, 9vw, 3.5rem);
+  font-size: clamp(1.5rem, min(8vw, 5.6vh), 3.2rem);
   letter-spacing: -0.035em;
   line-height: 1.1;
 }
@@ -284,12 +298,14 @@
 .mobile-menu-foot {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
+  align-items: center;
+  gap: 0 1.5rem;
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.75);
 }
 
-.mobile-menu-foot a {
+.mobile-menu-foot a,
+.mobile-menu-foot span {
   min-height: 44px;
   display: inline-flex;
   align-items: center;
